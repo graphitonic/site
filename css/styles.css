@@ -3493,29 +3493,22 @@ img.u-pull-left {
     opacity             : 1;
 }
 
-.service-icon--product-design {
-    background-image : url(../images/icons/services/icon-product-design.svg);
+.service-icon--graphic {
+    background-image : url(../images/icons/services/graphic-design.svg);
 }
 
-.service-icon--branding {
-    background-image : url(../images/icons/services/icon-branding.svg);
+.service-icon--video {
+    background-image : url(../images/icons/services/video-edit.svg);
 }
 
-.service-icon--frontend {
-    background-image : url(../images/icons/services/icon-frontend.svg);
+.service-icon--webdev {
+    background-image : url(../images/icons/services/web-dev.svg);
 }
 
-.service-icon--research {
-    background-image : url(../images/icons/services/icon-research.svg);
+.service-icon--appdev {
+    background-image : url(../images/icons/services/app-dev.svg);
 }
 
-.service-icon--illustration {
-    background-image : url(../images/icons/services/icon-illustration.svg);
-}
-
-.service-icon--ecommerce {
-    background-image : url(../images/icons/services/icon-ecommerce.svg);
-}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -3580,7 +3573,7 @@ img.u-pull-left {
 
 .s-works {
     padding-top    : var(--vspace-5);
-    padding-bottom : var(--vspace-4);
+    /* padding-bottom : var(--vspace-4); */
 }
 
 .folio-list {
@@ -3885,7 +3878,7 @@ img.u-pull-left {
    font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
  }
  .our-team ul i:hover {
-   color: #f2709c;
+   color: var(--color-1);
  }
  
  .our-team {
@@ -3894,6 +3887,7 @@ img.u-pull-left {
    text-align: center;
    width: min(90rem, 90%);
    margin-inline: auto;
+   padding-bottom   : var(--vspace-5);
  }
  .our-team span,
  .our-team p,
@@ -4004,6 +3998,7 @@ img.u-pull-left {
    justify-content: center;
    gap: 0.625rem;
    margin-top: 1.25rem;
+   margin-left: 0;
  }
  .our-team .cards .card:hover img {
    filter: grayscale(0%);
@@ -4188,6 +4183,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-footer {
     margin-top : var(--vspace-5);
+    margin-bottom: var(--vspace-3);
 }
 
 .s-footer h4 {
